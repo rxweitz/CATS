@@ -1,0 +1,63 @@
+/* Global styles */
+
+
+/* Styles for conditions/index */
+
+#condition_list table {
+    border-collapse: collapse;
+}
+
+#condition_list table tr td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+#condition_list .list_conditioncode {
+    width:        40%;
+}
+
+#condition_list .list_conditioncode dl {
+    margin: 0;
+}
+
+#condition_list .list_conditioncode dt {
+    color:        #244;
+    font-weight:  bold;
+    font-size:    larger;
+}
+
+#condition_list .list_conditioncode dd {
+    margin: 0;
+}
+
+#condition_list .list_description {
+    width:        60%;
+}
+
+#condition_list .list_description dl {
+    margin: 0;
+}
+
+#condition_list .list_description dt {
+    color:        #244;
+    font-weight:  bold;
+    font-size:    larger;
+}
+
+#condition_list .list_description dd {
+    margin: 0;
+}
+
+#condition_list .list_actions {
+    font-size:    x-small;
+    text-align:   right;
+    padding-left: 1em;
+}
+
+#condition_list .list_line_even {
+    background:   #e0f8f8;
+}
+
+#condition_list .list_line_odd {
+    background:   #fff898;
+}

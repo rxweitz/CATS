@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  conditionid: 1
+  conditioncode: MyString
+  description: MyString
+
+two:
+  conditionid: 1
+  conditioncode: MyString
+  description: MyString
