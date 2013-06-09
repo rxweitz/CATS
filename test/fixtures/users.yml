@@ -1,0 +1,75 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  contactid: 1
+  contactcode: MyString
+  firstname: MyString
+  middlename: MyString
+  lastname: MyString
+  title: MyString
+  department: MyString
+  securityprofileid: 1
+  orderdefaultid: 1
+  password: MyString
+  locked: MyString
+  passwordchange: MyString
+  active: MyString
+  mobilityversion: MyString
+  address1: MyString
+  address2: MyString
+  address3: MyString
+  city: MyString
+  stateprovince: MyString
+  country: MyString
+  postalcode: MyString
+  phone: MyString
+  cellphone: MyString
+  pagerphone: MyString
+  faxphone: MyString
+  email: MyString
+  url: MyString
+  locationdetailid: 1
+  supervisorcontactid: 1
+  approvercontactid: 1
+  approverdollars: 9.99
+  addcontactid: 1
+  adddttm: 2013-06-09 09:13:36
+  managecontactid: 1
+  managedttm: 2013-06-09 09:13:36
+
+two:
+  contactid: 1
+  contactcode: MyString
+  firstname: MyString
+  middlename: MyString
+  lastname: MyString
+  title: MyString
+  department: MyString
+  securityprofileid: 1
+  orderdefaultid: 1
+  password: MyString
+  locked: MyString
+  passwordchange: MyString
+  active: MyString
+  mobilityversion: MyString
+  address1: MyString
+  address2: MyString
+  address3: MyString
+  city: MyString
+  stateprovince: MyString
+  country: MyString
+  postalcode: MyString
+  phone: MyString
+  cellphone: MyString
+  pagerphone: MyString
+  faxphone: MyString
+  email: MyString
+  url: MyString
+  locationdetailid: 1
+  supervisorcontactid: 1
+  approvercontactid: 1
+  approverdollars: 9.99
+  addcontactid: 1
+  adddttm: 2013-06-09 09:13:36
+  managecontactid: 1
+  managedttm: 2013-06-09 09:13:36

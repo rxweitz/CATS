@@ -1,0 +1,157 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :contactid %><br />
+    <%= f.number_field :contactid %>
+  </div>
+  <div class="field">
+    <%= f.label :contactcode %><br />
+    <%= f.text_field :contactcode %>
+  </div>
+  <div class="field">
+    <%= f.label :firstname %><br />
+    <%= f.text_field :firstname %>
+  </div>
+  <div class="field">
+    <%= f.label :middlename %><br />
+    <%= f.text_field :middlename %>
+  </div>
+  <div class="field">
+    <%= f.label :lastname %><br />
+    <%= f.text_field :lastname %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :department %><br />
+    <%= f.text_field :department %>
+  </div>
+  <div class="field">
+    <%= f.label :securityprofileid %><br />
+    <%= f.number_field :securityprofileid %>
+  </div>
+  <div class="field">
+    <%= f.label :orderdefaultid %><br />
+    <%= f.number_field :orderdefaultid %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.text_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :locked %><br />
+    <%= f.text_field :locked %>
+  </div>
+  <div class="field">
+    <%= f.label :passwordchange %><br />
+    <%= f.text_field :passwordchange %>
+  </div>
+  <div class="field">
+    <%= f.label :active %><br />
+    <%= f.text_field :active %>
+  </div>
+  <div class="field">
+    <%= f.label :mobilityversion %><br />
+    <%= f.text_field :mobilityversion %>
+  </div>
+  <div class="field">
+    <%= f.label :address1 %><br />
+    <%= f.text_field :address1 %>
+  </div>
+  <div class="field">
+    <%= f.label :address2 %><br />
+    <%= f.text_field :address2 %>
+  </div>
+  <div class="field">
+    <%= f.label :address3 %><br />
+    <%= f.text_field :address3 %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :stateprovince %><br />
+    <%= f.text_field :stateprovince %>
+  </div>
+  <div class="field">
+    <%= f.label :country %><br />
+    <%= f.text_field :country %>
+  </div>
+  <div class="field">
+    <%= f.label :postalcode %><br />
+    <%= f.text_field :postalcode %>
+  </div>
+  <div class="field">
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :cellphone %><br />
+    <%= f.text_field :cellphone %>
+  </div>
+  <div class="field">
+    <%= f.label :pagerphone %><br />
+    <%= f.text_field :pagerphone %>
+  </div>
+  <div class="field">
+    <%= f.label :faxphone %><br />
+    <%= f.text_field :faxphone %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :locationdetailid %><br />
+    <%= f.number_field :locationdetailid %>
+  </div>
+  <div class="field">
+    <%= f.label :supervisorcontactid %><br />
+    <%= f.number_field :supervisorcontactid %>
+  </div>
+  <div class="field">
+    <%= f.label :approvercontactid %><br />
+    <%= f.number_field :approvercontactid %>
+  </div>
+  <!--<div class="field">-->
+    <%# f.label :approverdollars %>
+    <!--<%# f.text_field :approverdollars %>-->
+  <!--</div>-->
+  <div class="field">
+    <%= f.label :addcontactid %><br />
+    <%= f.number_field :addcontactid %>
+  </div>
+  <div class="field">
+    <%= f.label :adddttm %><br />
+    <%= f.datetime_select :adddttm %>
+  </div>
+  <div class="field">
+    <%= f.label :managecontactid %><br />
+    <%= f.number_field :managecontactid %>
+  </div>
+  <div class="field">
+    <%= f.label :managedttm %><br />
+    <%= f.datetime_select :managedttm %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

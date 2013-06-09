@@ -1,0 +1,91 @@
+<h1>Listing users</h1>
+
+<table>
+  <tr>
+    <th>Contactid</th>
+    <th>Contactcode</th>
+    <th>Firstname</th>
+    <th>Middlename</th>
+    <th>Lastname</th>
+    <th>Title</th>
+    <th>Department</th>
+    <th>Securityprofileid</th>
+    <th>Orderdefaultid</th>
+    <th>Password</th>
+    <th>Locked</th>
+    <th>Passwordchange</th>
+    <th>Active</th>
+    <th>Mobilityversion</th>
+    <th>Address1</th>
+    <th>Address2</th>
+    <th>Address3</th>
+    <th>City</th>
+    <th>Stateprovince</th>
+    <th>Country</th>
+    <th>Postalcode</th>
+    <th>Phone</th>
+    <th>Cellphone</th>
+    <th>Pagerphone</th>
+    <th>Faxphone</th>
+    <th>Email</th>
+    <th>Url</th>
+    <th>Locationdetailid</th>
+    <th>Supervisorcontactid</th>
+    <th>Approvercontactid</th>
+    <!--<th>Approverdollars</th>-->
+    <th>Addcontactid</th>
+    <th>Adddttm</th>
+    <th>Managecontactid</th>
+    <th>Managedttm</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @users.each do |user| %>
+      <tr>
+        <td><%= user.contactid %></td>
+        <td><%= user.contactcode %></td>
+        <td><%= user.firstname %></td>
+        <td><%= user.middlename %></td>
+        <td><%= user.lastname %></td>
+        <td><%= user.title %></td>
+        <td><%= user.department %></td>
+        <td><%= user.securityprofileid %></td>
+        <td><%= user.orderdefaultid %></td>
+        <td><%= user.password %></td>
+        <td><%= user.locked %></td>
+        <td><%= user.passwordchange %></td>
+        <td><%= user.active %></td>
+        <td><%= user.mobilityversion %></td>
+        <td><%= user.address1 %></td>
+        <td><%= user.address2 %></td>
+        <td><%= user.address3 %></td>
+        <td><%= user.city %></td>
+        <td><%= user.stateprovince %></td>
+        <td><%= user.country %></td>
+        <td><%= user.postalcode %></td>
+        <td><%= user.phone %></td>
+        <td><%= user.cellphone %></td>
+        <td><%= user.pagerphone %></td>
+        <td><%= user.faxphone %></td>
+        <td><%= user.email %></td>
+        <td><%= user.url %></td>
+        <td><%= user.locationdetailid %></td>
+        <td><%= user.supervisorcontactid %></td>
+        <td><%= user.approvercontactid %></td>
+        <!--<td><%#user.approverdollars %></td>-->
+        <td><%= user.addcontactid %></td>
+        <td><%= user.adddttm %></td>
+        <td><%= user.managecontactid %></td>
+        <td><%= user.managedttm %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to 'New User', new_user_path %>
