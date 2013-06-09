@@ -1,20 +1,17 @@
+<h1>Show Condition</h1>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Conditionid:</b>
-  <%= @condition.conditionid %>
-</p>
+<table>
+    <tr>
+      <td><b>Conditioncode:</b></td>
+      <td><%= @condition.conditioncode %></td>
+    </tr>
 
-<p>
-  <b>Conditioncode:</b>
-  <%= @condition.conditioncode %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @condition.description %>
-</p>
-
+    <tr>
+      <td><b>Description:</b></td>
+      <td><%= @condition.description %></td>
+    </tr>
+<table>
 
 <%= link_to 'Edit', edit_condition_path(@condition) %> |
 <%= link_to 'Back', conditions_path %>
