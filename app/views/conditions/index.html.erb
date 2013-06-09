@@ -1,8 +1,9 @@
+<div id= "condition_list"
 <h1>Conditions</h1>
 
 <table>
   <tr>
-    <th>Conditioncode</th>
+    <th>Condition Code</th>
     <th>Description</th>
     <th></th>
     <th></th>
@@ -10,7 +11,7 @@
   </tr>
 
 <% @conditions.each do |condition| %>
-  <tr>
+  <tr class=" <%= cycle('list_line_odd' , 'list_line_even' ) %>" >
     <td><%= condition.conditioncode %></td>
     <td><%= condition.description %></td>
     <td><%= link_to 'Show', condition %></td>
@@ -19,6 +20,7 @@
   </tr>
 <% end %>
 </table>
+</div>
 
 <br />
 

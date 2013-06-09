@@ -1,4 +1,11 @@
 class ConditionsController < ApplicationController
+
+  def parse_oracle_error(message)
+    start_position = message.index("ORA-20000:") + 10
+    end_position = message.index("ORA-",start_position+1) - 1
+    message[start_position..end_position]
+  end
+
   # GET /conditions
   # GET /conditions.json
   def index
@@ -43,9 +50,21 @@ class ConditionsController < ApplicationController
     @condition = Condition.new(params[:condition])
 
     respond_to do |format|
-      if @condition.save
+      begin
+        result = @condition.save
+      rescue Exception => e
+        #Pass e.message back to user
+        if e.message.index("ORA-20000:")
+          @condition.errors.add(:conditionid, parse_oracle_error(e.message))
+        else
+          @condition.errors.add(:conditionid, e.message)
+        end
+
+      end
+      if result
         format.html { redirect_to @condition, notice: 'Condition was successfully created.' }
         format.json { render json: @condition, status: :created, location: @condition }
+
       else
         format.html { render action: "new" }
         format.json { render json: @condition.errors, status: :unprocessable_entity }

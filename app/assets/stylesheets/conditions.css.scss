@@ -2,6 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+#condition_list h1 {
+  font:  150% sans-serif;
+  color: #226;
+  border-bottom: 3px dotted #77d;
+}
+
 #condition_list table {
   border-collapse: collapse;
 }
