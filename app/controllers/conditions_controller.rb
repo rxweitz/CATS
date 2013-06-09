@@ -48,13 +48,8 @@ class ConditionsController < ApplicationController
       begin
         result = @condition.save
       rescue Exception => e
-        #Pass e.message back to user
-        if e.message.index("ORA-20000:")
-          @condition.errors.add(:conditionid, parse_oracle_error(e.message))
-        else
-          @condition.errors.add(:conditionid, e.message)
-        end
-
+        # If an error occurred, pass the error message back to the user.
+        @condition.errors.add(:conditionid, parse_error(e.message))
       end
       if result
         format.html { redirect_to @condition, notice: 'Condition was successfully created.' }

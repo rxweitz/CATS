@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conditions/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/conditions/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/condition.rb" afterPath="$PROJECT_DIR$/app/models/condition.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conditions/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/conditions/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conditions/show.html.erb" afterPath="$PROJECT_DIR$/app/views/conditions/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/conditions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/conditions_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CATS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370752686004" ignored="false" />
     <file path="/Gemfile" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370726652372" ignored="false" />
-    <file path="/Dummy.txt" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370757245235" ignored="false" />
-    <file path="/condition.rb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370761167253" ignored="false" />
-    <file path="/_form.html.erb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370613488598" ignored="false" />
+    <file path="/Dummy.txt" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370761493015" ignored="false" />
+    <file path="/condition.rb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370792911110" ignored="false" />
+    <file path="/_form.html.erb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370792987535" ignored="false" />
     <file path="/a.dummy" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370495184267" ignored="false" />
     <file path="/index.html.erb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370757684887" ignored="false" />
     <file path="/test.css" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370532345296" ignored="false" />
     <file path="/application.css" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370532423853" ignored="false" />
-    <file path="/conditions_controller.rb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370755623868" ignored="false" />
+    <file path="/conditions_controller.rb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370791755326" ignored="false" />
     <file path="/edit.html.erb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370757984435" ignored="false" />
     <file path="/show.html.erb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370758500737" ignored="false" />
+    <file path="/application_helper.rb" changelist="b9b6b89e-543e-4d5d-8bc1-eeb2ca8b3479" time="1370792119247" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,46 +42,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="condition.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="condition.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/condition.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="526" selection-end="526" vertical-scroll-proportion="0.77729255">
+            <state line="41" column="3" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/conditions/show.html.erb">
+      <file leaf-file-name="conditions_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/conditions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.8461537">
+            <state line="50" column="72" selection-start="1112" selection-end="1112" vertical-scroll-proportion="1.8162394">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/conditions/edit.html.erb">
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.9230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/conditions/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="47" selection-end="54" vertical-scroll-proportion="-1.9615384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conditions.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/conditions.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="182" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="2" column="68" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +72,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/conditions/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="69" selection-start="383" selection-end="383" vertical-scroll-proportion="-5.3461537">
+            <state line="3" column="68" selection-start="170" selection-end="170" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -120,17 +104,17 @@
       <list>
         <option value="$PROJECT_DIR$/app/assets/stylesheets/test.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/conditions/_form.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/execjs-1.4.0/lib/execjs/runtimes.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/conditions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/conditions/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/conditions.css.scss" />
         <option value="$PROJECT_DIR$/app/views/conditions/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/conditions/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/conditions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/condition.rb" />
+        <option value="$PROJECT_DIR$/app/views/conditions/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -259,6 +243,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CATS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CATS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CATS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CATS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,7 +585,11 @@
       <created>1370757356436</created>
       <updated>1370757356436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added validation to prevent Oracle errors">
+      <created>1370761500577</created>
+      <updated>1370761500577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -655,7 +679,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved parse_oracle_error function to application_helper.rb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added validation to prevent Oracle errors" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -671,6 +695,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added code to parse Oracle errors and pass them back to the user." />
     <MESSAGE value="Moved parse_oracle_error function to application_helper.rb" />
+    <MESSAGE value="Added validation to prevent Oracle errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -728,58 +753,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="227" selection-end="227" vertical-scroll-proportion="0.25982532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/conditions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="342" selection-end="342" vertical-scroll-proportion="0.5730337">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conditions/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="47" selection-end="54" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/conditions.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="182" selection-end="279" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="47" selection-end="54" vertical-scroll-proportion="0.115384616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conditions/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.8461537">
+        <state line="12" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.4722222">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conditions/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.9230769">
+        <state line="6" column="22" selection-start="122" selection-end="122" vertical-scroll-proportion="0.2361111">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conditions/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/conditions.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="383" selection-end="383" vertical-scroll-proportion="-5.3461537">
+        <state line="4" column="0" selection-start="182" selection-end="279" vertical-scroll-proportion="0.14137214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="68" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/condition.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="526" selection-end="526" vertical-scroll-proportion="0.77729255">
+        <state line="41" column="3" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/conditions/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="68" selection-start="170" selection-end="170" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/conditions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="72" selection-start="1112" selection-end="1112" vertical-scroll-proportion="1.8162394">
           <folding />
         </state>
       </provider>
